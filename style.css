@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #009b4e;
+    color: white;
+    display: inline-flex;
+    position: fixed;
+}
+.logo{
+    width: 20%;
+    margin-top: 10px;
+}
+.sprite-logo{
+    width: 132px;
+    margin-left: 57px;
+    margin-top: 10px;
+}
+.sprite-logo:hover{
+    box-shadow: 0px 0px 3px white;
+}
+.links{
+    width: 50%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    
+    
+}
+.nav-link p{
+    margin-top: 10px;
+    padding-right: 28px;
+    font-family: fantasy;
+}
+.nav-link p:hover{
+    color: black;
+}
+.navbar-social{
+    width: 30%;
+    margin-top: 30px;
+}
+.nav-social{
+    margin-left: 110px;
+    padding-left: 110px;
+}
+
+.navbar2{
+    padding-top: 5%;
+    width: 100%;
+    height: 620px;
+    background-color:black;
+    display: flex;
+    
+}
+
+.img-1 img{
+    height: 620px;
+  float: right;
+  width: 95%;
+}
+
+.img-2{
+height: 620px;
+width: 50%;
+margin-top: 60px;
+}
+.img-2 img{
+    height: 90px;
+    margin-left: 90px;
+    
+}
+.letters{
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 35px;
+}
+.button{
+    color: black;
+    margin-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+    font-weight: bold;
+    background-color: #f2fa07;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.navbar-3{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    
+}
+.ytvideo{
+    height: 290px;
+    width: 600px;
+    margin-top: 35px;
+    margin-left: 85px;
+}
+.nav3-letters{
+    color: black;
+    font-size: 58px;
+    font-weight: bold;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-left: 40px;
+}
+.nav3-letter1{
+    color: black;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}    
+.button-2{
+    background-color: #e9f02b;
+    color: black;
+    margin-left: 52px;
+    margin-top: 60px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: #e9f02b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-2:hover{
+    background-color: black;
+    color: white;
+}
+.navbar-4{
+    color: white;
+    width: 100%;
+    height: 575px;
+    
+}
+.img-3{
+    background-color: #009b4e;
+    width: 30px;
+    margin-left: 655px;
+}
+.img-3:hover{
+    box-shadow: 3px 3px 9px black;
+}
+.nav4-letter{
+    color: #009b4e;
+    height: 10px;
+    margin-left: 85px;
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 46px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nav4-img{
+    width: 50%;
+    float: right;
+    margin-right: 75px;
+    margin-top: 42px;
+    
+}
+.navbar-5{
+    background-color: #009b4e;
+    width: 100%;
+    height: 275px;
+    display: flex;
+
+}
+.nav-5img{
+    width: 448px;
+}
+.spriteimg2{
+    height: 68px;
+    margin-left: 220px;
+    margin-top: 108px;
+}
+.nav5-connect{
+    width: 380px;
+}
+.connect{
+    color: white;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-left: 74px
+}
+.social1{
+    margin-top: 64px;
+    margin-left: 66px;   
+    width: 25px;
+}
+.social2{
+    width: 25px;
+}
+.social3{
+    width: 25px;
+}
+.social4{
+    width: 25px;
+}
+.social5{
+    width: 25px;
+}
+
+.social1:hover{
+    width: 27px;
+}
+.social2:hover{
+    width: 27px;
+}
+.social3:hover{
+    width: 27px;
+}
+.social4:hover{
+    width: 27px;
+}
+.social5:hover{
+    width: 27px;
+}
+.nav-5products{
+    color: white;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    font-size: 7px;
+}
+.p1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.p2{
+color: white;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.p3{
+    color: white;
+        font-size: small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 7px;
+        font-size: 14px;
+}
+.p4{
+    color: white;
+        font-size: small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 7px;
+        font-size: 14px;
+}
+.p5{
+    color: white;
+        font-size: small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 7px;
+        font-size: 14px;
+}
+.p2{
+color: white;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.p6{
+color: white;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.p1:hover{
+    color: black;
+}
+.p2:hover{
+    color: black;
+}
+.p3:hover{
+    color: black;
+}
+.p4:hover{
+    color: black;
+}
+.p5:hover{
+    color: black;
+}
+.p6:hover{
+    color: black;
+}
+
+.navbar-6{
+    background-color: #009b4e;
+    width: 100%;
+    height: 140px;
+}
+.ft1{
+    color: white;
+    margin-left: 520px;
+    font-family: fantasy;
+} 
+.footter1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 266px;
+    font-family: fantasy;
+  list-style-type: none;
+ 
+}
+.footter-list span{
+font-size: x-large;
+font-weight: lighter;
+font-family: Arial;
+}
+.footter2{
+    color: white;
+   margin-left: 388px;
+   margin-top: -26px;
+   list-style-type: none;
+   font-family: fantasy;
+
+  
+}
+.footter3{
+    color: white;
+   margin-left: 450px;
+   margin-top: -26px;
+   list-style-type: none;
+   font-family: fantasy;
+   
+  
+}
+.footter4{
+    color: white;
+   margin-left: 518px;
+   margin-top: -26px;
+   list-style-type: none;
+   font-family: fantasy;
+}
+.footter5{
+    color: white;
+   margin-left: 730px;
+   margin-top: -26px;
+   list-style-type: none;
+   font-family: fantasy;
+}
+.footter6{
+    color: white;
+   margin-left: 1035px;
+   margin-top: -26px;
+   list-style-type: none;
+   font-family: fantasy;
+}
+.footter7{
+    color: white;
+   margin-left: 1100px;
+   margin-top: -21px;
+   list-style-type: none;
+   font-family: fantasy;
+}
+.footter1:hover{
+    color: black;
+}
+.footter2:hover{
+    color: black;
+}
+.footter3:hover{
+    color: black;
+}
+.footter4:hover{
+    color: black;
+}
+.footter5:hover{
+    color: black;
+}
+.footter6:hover{
+    color: black;
+}
+.footter7:hover{
+    color: black;
+}
+
